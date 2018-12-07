@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnet-dec7-dj
-        image: dibyajyoti-mohanta/dotnet-dec7_dibyajyoti_trainee:#{Build.BuildId}#
+        image: adityaregistry.azurecr.io/dibyajyoti-mohanta/dotnet-dec7_dibyajyoti_trainee:#{Build.BuildId}#
         ports:
         - name: dj-port
           containerPort: 5000
