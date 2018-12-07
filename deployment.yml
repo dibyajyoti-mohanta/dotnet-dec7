@@ -14,7 +14,7 @@ spec:
         image: dibyajyoti-mohanta/dotnet-dec7_dibyajyoti_trainee:#{Build.BuildId}#
         ports:
         - name: dj-port
-          containerPort: 80
+          containerPort: 5000
 ---
 apiVersion: v1
 kind: Service
