@@ -14,7 +14,7 @@ spec:
         image: adityaregistry.azurecr.io/dibyajyoti-mohanta/dotnet-dec7_dibyajyoti_trainee:#{Build.BuildId}#
         ports:
         - name: dj-port
-          containerPort: 5000
+          containerPort: 80
 ---
 apiVersion: v1
 kind: Service
